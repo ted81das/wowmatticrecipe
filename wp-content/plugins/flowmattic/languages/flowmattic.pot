@@ -1,0 +1,4900 @@
+# Copyright (C) 2024 InfiWebs
+# This file is distributed under the same license as the FlowMattic package.
+msgid ""
+msgstr ""
+"Project-Id-Version: FlowMattic 4.3.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flowmattic\n"
+"POT-Creation-Date: 2024-10-03 18:12:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/templates/action-app-data.php:31 app/templates/new-action.php:19
+msgid "Action: Do this..."
+msgstr ""
+
+#: app/templates/action-app-data.php:46
+msgid "Rename Action Step"
+msgstr ""
+
+#: app/templates/action-app-data.php:53 app/templates/new-action.php:23
+msgid "Delete Action Step"
+msgstr ""
+
+#: app/templates/action-app-data.php:63 app/templates/trigger-app-data.php:63
+msgid "Click to display or add the description for this step."
+msgstr ""
+
+#: app/templates/action-app-data.php:70 app/templates/new-action.php:33
+msgid "Toggle Action Step"
+msgstr ""
+
+#: app/templates/action-app-data.php:82 app/templates/app.php:34
+#: app/templates/new-action.php:46 app/templates/trigger-app-data.php:82
+msgid "Choose Application"
+msgstr ""
+
+#: app/templates/action-app-data.php:125
+msgid "Action Event"
+msgstr ""
+
+#: app/templates/action-app-data.php:163 app/templates/trigger-app-data.php:187
+msgid "Simple Response"
+msgstr ""
+
+#: app/templates/action-app-data.php:166 app/templates/trigger-app-data.php:190
+msgid "Retrieve the data in simple format"
+msgstr ""
+
+#: app/templates/action-app-data.php:176
+msgid "Enable Conditional Execution"
+msgstr ""
+
+#: app/templates/action-app-data.php:178
+msgid "Execute This Step Only if Conditions Meet"
+msgstr ""
+
+#: app/templates/action-app-data.php:185
+msgid "Ignore Errors"
+msgstr ""
+
+#: app/templates/action-app-data.php:187
+msgid ""
+"Check to ignore the error responses. This will set the error status to "
+"success and prevent the error notification email as well."
+msgstr ""
+
+#: app/templates/action-app-data.php:195
+msgid "Save & Test Action"
+msgstr ""
+
+#: app/templates/action-app-data.php:206
+msgid "Action Step Description"
+msgstr ""
+
+#: app/templates/action-app-data.php:211 app/templates/trigger-app-data.php:172
+msgid "Description:"
+msgstr ""
+
+#: app/templates/action-app-data.php:216 app/templates/trigger-app-data.php:177
+#: inc/admin-screens/connects.php:231 inc/admin-screens/connects.php:271
+#: inc/admin-screens/connects.php:313 inc/admin-screens/connects.php:335
+#: inc/admin-screens/connects.php:503
+#: inc/admin-screens/custom-app-edit-actions.php:185
+#: inc/admin-screens/custom-app-edit-actions.php:339
+#: inc/admin-screens/custom-app-edit-actions.php:361
+#: inc/admin-screens/custom-app-edit-actions.php:393
+#: inc/admin-screens/custom-app-edit-actions.php:474
+#: inc/admin-screens/custom-app-edit-actions.php:502
+#: inc/admin-screens/custom-app-edit-actions.php:514
+#: inc/admin-screens/custom-app-edit-actions.php:539
+#: inc/admin-screens/custom-app-edit-triggers.php:183
+#: inc/admin-screens/custom-app-edit-triggers.php:225
+#: inc/admin-screens/custom-apps.php:212 inc/admin-screens/dashboard.php:250
+#: inc/admin-screens/dashboard.php:263 inc/admin-screens/dashboard.php:525
+#: inc/admin-screens/tasks-history.php:604
+#: inc/admin-screens/tasks-history.php:663 inc/admin-screens/variables.php:234
+#: inc/admin-screens/workflows.php:337
+msgid "Close"
+msgstr ""
+
+#: app/templates/action-app-data.php:217 app/templates/trigger-app-data.php:178
+msgid "Save"
+msgstr ""
+
+#: app/templates/app.php:25 app/templates/trigger-app-data.php:19
+msgid "Trigger: When this happens..."
+msgstr ""
+
+#: app/templates/app.php:26
+msgid "Choose a trigger"
+msgstr ""
+
+#: app/templates/app.php:80
+msgid "Webhook"
+msgstr ""
+
+#: app/templates/app.php:81
+msgid "Capture data from another app using webhook."
+msgstr ""
+
+#: app/templates/app.php:91
+msgid "Schedule"
+msgstr ""
+
+#: app/templates/app.php:92
+msgid "Trigger the workflow every hour, day, or custom interval."
+msgstr ""
+
+#: app/templates/app.php:102 inc/apps/custom/class-custom.php:22
+msgid "Custom Action"
+msgstr ""
+
+#: app/templates/app.php:103
+msgid "Use custom code to trigger the workflow."
+msgstr ""
+
+#: app/templates/app.php:112 app/templates/new-action.php:167
+#: app/templates/trigger-app-data.php:157
+msgid "Add New Action"
+msgstr ""
+
+#: app/templates/app.php:131
+msgid "Save Workflow"
+msgstr ""
+
+#: app/templates/app.php:147
+msgid "Save Route"
+msgstr ""
+
+#: app/templates/app.php:222
+msgid "Request Response"
+msgstr ""
+
+#: app/templates/app.php:264
+msgid "Bold"
+msgstr ""
+
+#: app/templates/app.php:267
+msgid "Italic"
+msgstr ""
+
+#: app/templates/app.php:270
+msgid "Align Left"
+msgstr ""
+
+#: app/templates/app.php:273
+msgid "Align Center"
+msgstr ""
+
+#: app/templates/app.php:276
+msgid "Align Right"
+msgstr ""
+
+#: app/templates/app.php:279
+msgid "Justify Content"
+msgstr ""
+
+#: app/templates/app.php:282
+msgid "Insert Ordered List"
+msgstr ""
+
+#: app/templates/app.php:285
+msgid "Insert Unordered List"
+msgstr ""
+
+#: app/templates/app.php:288
+msgid "Insert Link"
+msgstr ""
+
+#: app/templates/app.php:291
+msgid "Insert Image"
+msgstr ""
+
+#: app/templates/app.php:294
+msgid "Undo"
+msgstr ""
+
+#: app/templates/app.php:297
+msgid "Redo"
+msgstr ""
+
+#: app/templates/app.php:300
+msgid "Insert Dynamic Tag"
+msgstr ""
+
+#: app/templates/app.php:303
+msgid "Toggle Code View"
+msgstr ""
+
+#: app/templates/app.php:361
+msgid "Run Workflow Test"
+msgstr ""
+
+#: app/templates/app.php:366
+msgid ""
+"Here is the response of your trigger app. You can use the same data or you "
+"can change it manually to perform test run of workflow."
+msgstr ""
+
+#: app/templates/app.php:382
+msgid "Run Now"
+msgstr ""
+
+#: app/templates/app.php:383 inc/admin-screens/dashboard.php:263
+#: inc/admin-screens/dashboard.php:545 inc/admin-screens/tasks-history.php:839
+#: inc/admin-screens/variables.php:181
+msgid "Cancel"
+msgstr ""
+
+#: app/templates/new-action.php:20
+msgid "Choose an action"
+msgstr ""
+
+#: app/templates/new-action.php:87
+msgid "Built-in Apps"
+msgstr ""
+
+#: app/templates/new-action.php:88
+msgid "Following are the frequently used built-in apps. Click on the app to use it."
+msgstr ""
+
+#: app/templates/new-action.php:101
+msgid "API"
+msgstr ""
+
+#: app/templates/new-action.php:102
+msgid "Connect with 3rd party apps using powerful API."
+msgstr ""
+
+#: app/templates/new-action.php:112
+msgid "Filter"
+msgstr ""
+
+#: app/templates/new-action.php:113
+msgid "Add conditions before processing next steps."
+msgstr ""
+
+#: app/templates/new-action.php:123
+msgid "Delay"
+msgstr ""
+
+#: app/templates/new-action.php:124
+msgid "Pause the workflow for certain amount of time."
+msgstr ""
+
+#: app/templates/new-action.php:134
+msgid "Iterator"
+msgstr ""
+
+#: app/templates/new-action.php:135
+msgid "Repeat actions based on the number of items in an object."
+msgstr ""
+
+#: app/templates/new-action.php:145
+#: inc/apps/iterator-storage/class-iterator-storage.php:22
+msgid "Iterator Storage"
+msgstr ""
+
+#: app/templates/new-action.php:146
+msgid "Store data from multiple actions within Iterator."
+msgstr ""
+
+#: app/templates/new-action.php:156
+#: inc/apps/iterator-end/class-iterator-end.php:22
+msgid "Iterator End"
+msgstr ""
+
+#: app/templates/new-action.php:157
+msgid "Stop the Iterator loop at this action step."
+msgstr ""
+
+#: app/templates/trigger-app-data.php:56
+#: inc/admin-screens/custom-app-edit-triggers.php:145
+#: inc/admin-screens/custom-app-edit-triggers.php:224
+msgid "Rename Trigger"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:70
+msgid "Toggle Trigger Step"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:119
+msgid "Trigger Event"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:167
+msgid "Trigger Step Description"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:200
+msgid "Choose Response"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:211
+msgid "Select the response you want to use in the workflow."
+msgstr ""
+
+#: app/templates/trigger-app-data.php:219 inc/admin-screens/chatbot.php:153
+#: inc/admin-screens/chatbot.php:154 inc/admin-screens/chatbot.php:512
+#: inc/admin-screens/chatbot.php:513
+msgid "Choose Connect"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:225
+msgid "No authentication required"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:240
+msgid "Frequency"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:245 inc/class-flowmattic-polling.php:214
+msgid "1 Minute"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:246 inc/class-flowmattic-polling.php:215
+msgid "2 Minutes"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:247 inc/class-flowmattic-polling.php:216
+msgid "5 Minutes"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:248 inc/class-flowmattic-polling.php:217
+msgid "10 Minutes"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:249 inc/class-flowmattic-polling.php:218
+msgid "15 Minutes"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:250 inc/class-flowmattic-polling.php:219
+msgid "30 Minutes"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:251 inc/class-flowmattic-polling.php:220
+msgid "1 Hour"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:252 inc/class-flowmattic-polling.php:221
+msgid "2 Hours"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:253 inc/class-flowmattic-polling.php:222
+msgid "3 Hours"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:254 inc/class-flowmattic-polling.php:223
+msgid "6 Hours"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:255 inc/class-flowmattic-polling.php:224
+msgid "12 Hours"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:256 inc/class-flowmattic-polling.php:225
+msgid "1 Day"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:275 inc/admin-screens/chatbot.php:371
+msgid "Webhook URL"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:296
+msgid "Re-capture Webhook Response"
+msgstr ""
+
+#: app/templates/trigger-app-data.php:300
+msgid "Capture Webhook Response"
+msgstr ""
+
+#: app/workflow-app.php:29
+msgid ""
+"License key not registered. Please register your license first to edit this "
+"workflow."
+msgstr ""
+
+#: app/workflow-app.php:40
+msgid ""
+"License key not valid. Please register your license first to edit this "
+"workflow."
+msgstr ""
+
+#: app/workflow-app.php:68 inc/admin-screens/dashboard.php:439
+#: inc/admin-screens/integrations.php:50 inc/admin-screens/settings.php:40
+#: inc/admin-screens/workflows.php:223
+msgid "New Workflow"
+msgstr ""
+
+#: app/workflow-app.php:148
+msgid "Back to Workflows"
+msgstr ""
+
+#: app/workflow-app.php:228 inc/admin-screens/dashboard.php:254
+#: inc/admin-screens/tasks-history.php:741 inc/admin-screens/workflows.php:276
+msgid "Workflow Name"
+msgstr ""
+
+#: app/workflow-app.php:232
+msgid "Add to Folder..."
+msgstr ""
+
+#: app/workflow-app.php:243
+msgid "Workflow Access"
+msgstr ""
+
+#: app/workflow-app.php:247
+msgid "Workflow Description"
+msgstr ""
+
+#: app/workflow-app.php:251
+msgid "Webhook Request Queue"
+msgstr ""
+
+#: app/workflow-app.php:253 inc/admin-screens/integrations.php:135
+msgid "Enable"
+msgstr ""
+
+#: app/workflow-app.php:254 inc/admin-screens/integrations.php:131
+msgid "Disable"
+msgstr ""
+
+#: app/workflow-app.php:257
+msgid ""
+"Enable to use queue for simultaneous requests to this workflow. Works only "
+"if the trigger is based on webhook."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:104
+msgid "Back to FlowMattic Dashboard"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:107
+msgid "FlowMattic Dashboard"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:117
+msgid "Help"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:129
+msgid "Setup"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:132
+msgid "Content"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:135 inc/admin-screens/chatbot.php:303
+#: inc/admin-screens/connects.php:103
+#: inc/admin-screens/custom-app-edit-actions.php:85
+#: inc/admin-screens/custom-app-edit-triggers.php:85
+#: inc/admin-screens/custom-app-edit.php:86
+#: inc/admin-screens/custom-apps.php:80
+msgid "Actions"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:138
+msgid "Style"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:141 inc/admin-screens/chatbot.php:440
+msgid "Conversations"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:149
+msgid "Chatbot Name"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:168 inc/admin-screens/chatbot.php:526
+msgid ""
+"Choose the FlowMattic Connect to use with Chatbot. Make sure to connect "
+"your OpenAI account"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:168 inc/admin-screens/chatbot.php:526
+msgid "here"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:172 inc/admin-screens/chatbot.php:174
+msgid "Choose Assistant"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:181
+msgid ""
+"Choose the assistant from the list of your OpenAI assistants. Or Click the "
+"button to create new one."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:182 inc/admin-screens/chatbot.php:571
+msgid "Create Assistant"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:186
+msgid "Welcome Text"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:187
+msgid "How can I help you today?"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:190
+msgid "User Input Placeholder"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:191 inc/admin-screens/chatbot.php:485
+#: inc/embed/chatbot.php:154
+msgid "Ask me anything..."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:194 inc/admin-screens/chatbot.php:558
+msgid "Instructions"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:195 inc/admin-screens/chatbot.php:559
+msgid "You are an AI chatbot. You are a helpful assistant."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:196 inc/admin-screens/chatbot.php:560
+msgid ""
+"The system instructions that the assistant uses. The maximum length is "
+"32768 characters"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:199
+msgid "Default Reply"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:200
+msgid "I am sorry, I do not understand. Please try again."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:201
+msgid ""
+"AI will attempt to use the default reply, when the assistant does not find "
+"any information for user question in the content sources. Leave empty to "
+"let AI generate the responce."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:204
+msgid "AI Model"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:230
+msgid ""
+"AI Models are subject to availibility, as per your OpenAI account. If you "
+"are using files to train your assistant, make sure to select the model that "
+"works with the retrieval tool in OpenAI."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:233
+msgid "Load User Session Chats"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:237
+#: inc/admin-screens/custom-app-edit-actions.php:438
+#: inc/admin-screens/custom-app-edit-actions.php:446
+#: inc/admin-screens/settings.php:55 inc/admin-screens/settings.php:75
+#: inc/admin-screens/settings.php:97 inc/admin-screens/settings.php:107
+msgid "Yes"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:238
+#: inc/admin-screens/custom-app-edit-actions.php:439
+#: inc/admin-screens/custom-app-edit-actions.php:447
+#: inc/admin-screens/settings.php:56 inc/admin-screens/settings.php:76
+#: inc/admin-screens/settings.php:98 inc/admin-screens/settings.php:108
+msgid "No"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:251
+msgid ""
+"FlowMattic remembers the user thread ID in sessions. Selecting \"Yes\" will "
+"load the messages of the respective user when they re-visit the chat box. "
+"Default: Yes"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:254 inc/admin-screens/chatbot.php:376
+#: inc/admin-screens/chatbot.php:433
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:260
+msgid "Content Sources"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:261
+msgid ""
+"Upload and manage the content your chatbot needs to understand your "
+"business, or project to answer questions."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:285 inc/admin-screens/connects.php:135
+#: inc/admin-screens/custom-app-edit-actions.php:156
+#: inc/admin-screens/custom-app-edit-triggers.php:154
+#: inc/admin-screens/custom-apps.php:111 inc/admin-screens/integrations.php:170
+#: inc/admin-screens/workflows.php:178
+msgid "Delete"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:296
+msgid "Add Source"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:304
+msgid "Trigger workflows or actions when chatbot response is generated."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:309
+msgid "Event"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:312
+msgid "Chatbot Response Generated"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:317 inc/admin-screens/workflows.php:278
+msgid "Action"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:322
+msgid "Trigger Workflow"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:323
+msgid "Send to Webhook"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:335
+msgid "Choose the action to perform when the chatbot generates a response."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:339 inc/admin-screens/tasks-history.php:638
+msgid "Workflow"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:367
+msgid "Choose the workflow to trigger when the chatbot generates a response."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:372
+msgid "https://example.com/webhook"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:373
+msgid ""
+"Enter the webhook URL to send the chatbot responses. Webhook URL will "
+"receive the chatbot response as JSON in the POST request."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:384
+msgid "Page Background"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:390
+msgid "Buttons and Chatbot Message Background"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:396
+msgid "User Message Background"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:402
+msgid "Loading Animation"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:407
+msgid "Spinner Icon"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:408
+msgid "Wave Dots"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:420
+msgid ""
+"Choose the animation type you like to show when the chatbot is waiting for "
+"reply."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:423 inc/admin-screens/chatbot.php:426
+msgid "Chatbox Icon"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:429
+msgid "Upload Icon"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:434
+msgid "Reset to Default"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:441
+msgid "Conversations handled with only FlowMattic chatbot will appear here."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:452
+msgid "Restart"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:455
+msgid "Embed"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:456
+msgid "Share"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:475 inc/embed/chatbot.php:143
+msgid "Jump to latest"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:508
+msgid "Assistant Name"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:509
+msgid "Eg. FlowMattic Support"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:530
+msgid "Assistant AI Model"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:555
+msgid "AI Models are subject to availibility, as per your OpenAI account"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:563 inc/admin-screens/custom-app-edit.php:107
+#: inc/admin-screens/variables.php:65 inc/admin-screens/variables.php:116
+msgid "Description"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:564
+msgid "This is an AI assistant to handle support queries."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:565
+msgid "The description of the assistant. The maximum length is 512 characters"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:595
+msgid "Copy the link and share it with your users."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:596
+msgid ""
+"To use custom URL or restrict access with password, please use the embed "
+"options in your page."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:599 inc/admin-screens/chatbot.php:631
+#: inc/admin-screens/chatbot.php:638 inc/admin-screens/chatbot.php:645
+msgid "Copy"
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:628
+msgid "Copy the shortcode and paste it in your post or page."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:635
+msgid "Copy the iframe code and paste it in your post or page."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:642
+msgid ""
+"Copy the popup code and paste the following script in your website in the "
+"footer."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:670
+msgid ""
+"Text-based files upto 10MB supported. Once you select the file from media "
+"library, it will be uploaded to OpenAI."
+msgstr ""
+
+#: inc/admin-screens/chatbot.php:676
+msgid "Text-based files upto 10MB supported."
+msgstr ""
+
+#: inc/admin-screens/connects.php:41
+msgid "Connect and manage your API authentications"
+msgstr ""
+
+#: inc/admin-screens/connects.php:43
+msgid ""
+"FlowMattic connects is built to keep your API authentications centralized. "
+"You can use these connects in API module or the app integration or custom "
+"app."
+msgstr ""
+
+#: inc/admin-screens/connects.php:45
+msgid ""
+"No coding skills required. You just need to get the API information "
+"required for your app."
+msgstr ""
+
+#: inc/admin-screens/connects.php:63 inc/admin-screens/connects.php:174
+#: inc/admin-screens/connects.php:229
+msgid "Connect Integration"
+msgstr ""
+
+#: inc/admin-screens/connects.php:70 inc/admin-screens/connects.php:181
+msgid "Connect New API"
+msgstr ""
+
+#: inc/admin-screens/connects.php:88
+msgid "Basic"
+msgstr ""
+
+#: inc/admin-screens/connects.php:89
+msgid "API Key"
+msgstr ""
+
+#: inc/admin-screens/connects.php:90
+msgid "Bearer Token"
+msgstr ""
+
+#: inc/admin-screens/connects.php:91
+msgid "OAuth 2.0"
+msgstr ""
+
+#: inc/admin-screens/connects.php:99 inc/admin-screens/connects.php:275
+#: inc/admin-screens/connects.php:317 inc/admin-screens/connects.php:339
+#: inc/admin-screens/connects.php:508
+msgid "Connect Name"
+msgstr ""
+
+#: inc/admin-screens/connects.php:100
+msgid "Auth Type"
+msgstr ""
+
+#: inc/admin-screens/connects.php:101
+msgid "Source"
+msgstr ""
+
+#: inc/admin-screens/connects.php:102 inc/admin-screens/custom-apps.php:79
+msgid "Created At"
+msgstr ""
+
+#: inc/admin-screens/connects.php:126 inc/admin-screens/connects.php:127
+#: inc/admin-screens/connects.php:312
+msgid "Rename Connect"
+msgstr ""
+
+#: inc/admin-screens/connects.php:130 inc/admin-screens/connects.php:131
+#: inc/admin-screens/custom-app-edit-actions.php:151
+#: inc/admin-screens/custom-app-edit-actions.php:152
+#: inc/admin-screens/custom-app-edit-triggers.php:149
+#: inc/admin-screens/custom-app-edit-triggers.php:150
+msgid "Change Settings"
+msgstr ""
+
+#: inc/admin-screens/connects.php:134
+msgid "Delete Connect"
+msgstr ""
+
+#: inc/admin-screens/connects.php:155
+msgid "FlowMattic Connects"
+msgstr ""
+
+#: inc/admin-screens/connects.php:190 inc/admin-screens/custom-apps.php:158
+msgid "Connect and manage your custom API connections here."
+msgstr ""
+
+#: inc/admin-screens/connects.php:191
+#: inc/admin-screens/custom-app-edit-actions.php:57
+#: inc/admin-screens/custom-app-edit-actions.php:96
+#: inc/admin-screens/custom-app-edit-triggers.php:57
+#: inc/admin-screens/custom-app-edit-triggers.php:96
+#: inc/admin-screens/custom-app-edit.php:58
+#: inc/admin-screens/custom-app-edit.php:97
+#: inc/admin-screens/custom-apps.php:159 inc/admin-screens/variables.php:36
+msgid "Learn more"
+msgstr ""
+
+#: inc/admin-screens/connects.php:201
+msgid ""
+"License key not registered. Please register your license first to use "
+"connects."
+msgstr ""
+
+#: inc/admin-screens/connects.php:230
+msgid "Search for integration"
+msgstr ""
+
+#: inc/admin-screens/connects.php:270
+msgid "New Connect"
+msgstr ""
+
+#: inc/admin-screens/connects.php:275 inc/admin-screens/connects.php:280
+#: inc/admin-screens/connects.php:317 inc/admin-screens/connects.php:339
+#: inc/admin-screens/connects.php:344 inc/admin-screens/connects.php:373
+#: inc/admin-screens/connects.php:377 inc/admin-screens/connects.php:387
+#: inc/admin-screens/connects.php:391 inc/admin-screens/connects.php:395
+#: inc/admin-screens/connects.php:408 inc/admin-screens/connects.php:412
+#: inc/admin-screens/connects.php:423 inc/admin-screens/connects.php:435
+#: inc/admin-screens/connects.php:445 inc/admin-screens/connects.php:451
+#: inc/admin-screens/connects.php:457 inc/admin-screens/connects.php:463
+#: inc/admin-screens/connects.php:508 inc/admin-screens/connects.php:530
+#: inc/admin-screens/custom-app-edit-actions.php:190
+#: inc/admin-screens/custom-app-edit-actions.php:216
+#: inc/admin-screens/custom-app-edit-actions.php:229
+#: inc/admin-screens/custom-app-edit-actions.php:234
+#: inc/admin-screens/custom-app-edit-actions.php:343
+#: inc/admin-screens/custom-app-edit-actions.php:365
+#: inc/admin-screens/custom-app-edit-actions.php:398
+#: inc/admin-screens/custom-app-edit-actions.php:403
+#: inc/admin-screens/custom-app-edit-triggers.php:188
+#: inc/admin-screens/custom-app-edit-triggers.php:198
+#: inc/admin-screens/custom-app-edit-triggers.php:229
+#: inc/admin-screens/dashboard.php:254
+msgid "Required"
+msgstr ""
+
+#: inc/admin-screens/connects.php:277 inc/admin-screens/connects.php:319
+#: inc/admin-screens/connects.php:341 inc/admin-screens/connects.php:512
+msgid "Name the connection, prefer API provider name for better understanding."
+msgstr ""
+
+#: inc/admin-screens/connects.php:280 inc/admin-screens/connects.php:344
+msgid "Authentication Type"
+msgstr ""
+
+#: inc/admin-screens/connects.php:281 inc/admin-screens/connects.php:345
+msgid "Authentication type"
+msgstr ""
+
+#: inc/admin-screens/connects.php:282 inc/admin-screens/connects.php:346
+msgid "Username-password based access using HTTP headers."
+msgstr ""
+
+#: inc/admin-screens/connects.php:283 inc/admin-screens/connects.php:347
+msgid "Single secret token for API request authorization."
+msgstr ""
+
+#: inc/admin-screens/connects.php:284 inc/admin-screens/connects.php:348
+msgid "Authenticate API using an access key, such as a JSON Web Token (JWT)."
+msgstr ""
+
+#: inc/admin-screens/connects.php:285 inc/admin-screens/connects.php:349
+msgid "Protocol for granting scoped API access via tokens."
+msgstr ""
+
+#: inc/admin-screens/connects.php:288 inc/admin-screens/connects.php:352
+msgid ""
+"The authorization header will be automatically generated when you send the "
+"request. Learn more about"
+msgstr ""
+
+#: inc/admin-screens/connects.php:290 inc/admin-screens/connects.php:354
+msgid "authorization"
+msgstr ""
+
+#: inc/admin-screens/connects.php:297
+msgid "Select the Authentication Type to get started"
+msgstr ""
+
+#: inc/admin-screens/connects.php:321
+#: inc/admin-screens/custom-app-edit-actions.php:347
+#: inc/admin-screens/custom-app-edit-triggers.php:233
+msgid "Rename"
+msgstr ""
+
+#: inc/admin-screens/connects.php:334
+msgid "Edit Connect:"
+msgstr ""
+
+#: inc/admin-screens/connects.php:361
+msgid "Loading settings..."
+msgstr ""
+
+#: inc/admin-screens/connects.php:373
+msgid "API Key / Username"
+msgstr ""
+
+#: inc/admin-screens/connects.php:377
+msgid "API Secret / Password"
+msgstr ""
+
+#: inc/admin-screens/connects.php:381 inc/admin-screens/connects.php:402
+#: inc/admin-screens/connects.php:417 inc/admin-screens/connects.php:427
+#: inc/admin-screens/connects.php:539
+msgid "Save Connect"
+msgstr ""
+
+#: inc/admin-screens/connects.php:387
+msgid "API Key Name"
+msgstr ""
+
+#: inc/admin-screens/connects.php:391 inc/admin-screens/connects.php:408
+#: inc/admin-screens/connects.php:530
+msgid "API Key Value"
+msgstr ""
+
+#: inc/admin-screens/connects.php:395
+msgid "Add API Key to"
+msgstr ""
+
+#: inc/admin-screens/connects.php:412 inc/admin-screens/connects.php:534
+msgid "Base URL"
+msgstr ""
+
+#: inc/admin-screens/connects.php:414 inc/admin-screens/connects.php:536
+msgid "Enter the base URL for your app API endpoint, if required by your app."
+msgstr ""
+
+#: inc/admin-screens/connects.php:423
+msgid "Bearer Token / API Key"
+msgstr ""
+
+#: inc/admin-screens/connects.php:435
+msgid "Callback URL"
+msgstr ""
+
+#: inc/admin-screens/connects.php:445
+msgid "Auth URL"
+msgstr ""
+
+#: inc/admin-screens/connects.php:451
+msgid "Access Token URL"
+msgstr ""
+
+#: inc/admin-screens/connects.php:457
+msgid "Client ID"
+msgstr ""
+
+#: inc/admin-screens/connects.php:463
+msgid "Client Secret"
+msgstr ""
+
+#: inc/admin-screens/connects.php:469
+msgid "Scopes"
+msgstr ""
+
+#: inc/admin-screens/connects.php:475
+msgid "State"
+msgstr ""
+
+#: inc/admin-screens/connects.php:481
+msgid "Authorization Token Name"
+msgstr ""
+
+#: inc/admin-screens/connects.php:487
+msgid "Client Authentication"
+msgstr ""
+
+#: inc/admin-screens/connects.php:489
+msgid "Send as Basic Auth header"
+msgstr ""
+
+#: inc/admin-screens/connects.php:490
+msgid "Send client credentials in body"
+msgstr ""
+
+#: inc/admin-screens/connects.php:494
+msgid "Save Connect & Authenticate"
+msgstr ""
+
+#: inc/admin-screens/connects.php:502
+msgid "Connect App:"
+msgstr ""
+
+#: inc/admin-screens/connects.php:524
+msgid "Authenticate & Save Connect"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:17
+#: inc/admin-screens/custom-app-edit-triggers.php:17
+#: inc/class-flowmattic-custom-apps.php:202
+#: inc/class-flowmattic-custom-apps.php:459
+msgid "Invalid App ID."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:17
+#: inc/admin-screens/custom-app-edit-triggers.php:17
+#: inc/class-flowmattic-admin.php:1122
+msgid "Get back to Custom Apps"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:19
+#: inc/admin-screens/custom-app-edit-triggers.php:19
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:46
+#: inc/admin-screens/custom-app-edit-triggers.php:46
+#: inc/admin-screens/custom-app-edit.php:35
+#: inc/admin-screens/custom-apps.php:131 inc/class-flowmattic-admin.php:718
+#: inc/class-flowmattic-admin.php:1339
+msgid "Custom Apps"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:51
+#: inc/admin-screens/custom-app-edit-actions.php:116
+msgid "Create New Action"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:57
+msgid "Create and manage your Custom App actions here."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:68
+#: inc/admin-screens/custom-app-edit-triggers.php:68
+#: inc/admin-screens/custom-app-edit.php:69
+msgid "App Info"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:79
+#: inc/admin-screens/custom-app-edit-triggers.php:79
+#: inc/admin-screens/custom-app-edit.php:80
+msgid "Triggers"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:95
+msgid "Configure your app action details like name, description and API details."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:105
+msgid "Create and manage actions"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:107
+msgid "Start configuring your custom app actions which executes the workflow."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:108
+msgid "No coding skills required. What you need is just your API documentation."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:111
+msgid "Provide action name and short description"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:112
+msgid "Configure the API endpoints including URL path variables"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:113
+msgid "Set the required headers, request body and URL params"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:147
+#: inc/admin-screens/custom-app-edit-actions.php:338
+msgid "Rename Action"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:148
+msgid "Rename action"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:155
+msgid "Delete Action"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:171
+#: inc/admin-screens/custom-app-edit-triggers.php:169
+msgid "Add New Field"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:184
+msgid "Action Settings"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:190
+#: inc/admin-screens/custom-app-edit-actions.php:343
+msgid "Action Name"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:192
+msgid "Name for this action. Eg. Create user."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:195
+msgid "Action Description"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:197
+msgid "Describe this action in a few words Eg. Create new user."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:200
+msgid "Action Event API Configuration"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:201
+msgid "Set the API endpoint, body and header parameters as required."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:203
+msgid "Import cURL Request"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:204
+msgid "Import cURL request to auto-fill the API details."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:216
+msgid "HTTP Method"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:217
+#: inc/admin-screens/custom-app-edit-actions.php:235
+msgid "Choose HTTP Method"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:218
+#: inc/apps/api/class-flowmattic-api.php:100
+msgid "GET"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:219
+#: inc/apps/api/class-flowmattic-api.php:103
+msgid "POST"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:220
+#: inc/apps/api/class-flowmattic-api.php:106
+msgid "PUT"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:221
+#: inc/apps/api/class-flowmattic-api.php:109
+msgid "DELETE"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:222
+#: inc/apps/api/class-flowmattic-api.php:112
+msgid "PATCH"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:225
+msgid "Select how the API request to be sent."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:229
+msgid "API Endpoint URL"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:231
+msgid ""
+"URL that accepts the API request. For dynamic URL params, wrap the path "
+"params in {{ and }}. Eg. "
+"https://api.domain.com/v1/subscribers/{{subscriber_id}}/update"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:234
+msgid "Request Content Type"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:236
+msgid "JSON"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:237
+msgid "Form-data"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:238
+msgid "Encoded Form Data"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:239
+#: inc/apps/api/class-flowmattic-api.php:143
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:477
+msgid "Text"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:240
+#: inc/apps/api/class-flowmattic-api.php:147
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:481
+msgid "HTML"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:241
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:485
+msgid "XML"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:244
+msgid ""
+"Refer your API documentation to find the correct content type for this "
+"request."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:252
+msgid "Set Headers"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:273
+#: inc/admin-screens/custom-app-edit-actions.php:307
+#: inc/admin-screens/custom-app-edit-actions.php:432
+msgid "Add More"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:281
+msgid "Import JSON"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:282
+msgid "Import JSON data to auto-fill the Body Parameters and Request Body."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:286
+msgid "Set Body/Query/Path Parameters"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:309
+msgid ""
+"Make sure the field name matches with key in your API documentation. eg. "
+"first_name"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:313
+msgid "Request Body ( Raw JSON / XML )"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:319
+msgid ""
+"Enter the JSON code to be sent as API request. For dynamic values based on "
+"the above params, wrap the params in {{ and }} for the value in JSON."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:320
+msgid ""
+"Make sure to <a href=\"%s\" class=\"text-decoration-none\" "
+"target=\"_blank\">validate the JSON</a> code to avoid failing of task."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:326
+msgid "Save Action"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:345
+msgid "Name the new action. Eg. Webhook received."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:360
+msgid "Header Field Settings"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:365
+#: inc/admin-screens/custom-app-edit-actions.php:398
+msgid "Field Label"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:367
+#: inc/admin-screens/custom-app-edit-actions.php:400
+msgid "Field label will be displayed in the action step against this field."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:370
+#: inc/admin-screens/custom-app-edit-actions.php:452
+msgid "Help Text"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:372
+#: inc/admin-screens/custom-app-edit-actions.php:454
+msgid ""
+"What this field is all about. HTML allowed. Make sure to set the links to "
+"be opened in new tab."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:375
+#: inc/admin-screens/custom-app-edit-actions.php:457
+#: inc/apps/text-formatter/class-text-formatter.php:91
+msgid "Default Value"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:377
+msgid ""
+"If set, this value will be set as the default value for the input field "
+"when loaded in the action step."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:379
+#: inc/admin-screens/custom-app-edit-actions.php:461
+msgid "Save Field"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:392
+msgid "Body Field Settings"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:403
+msgid "Field Type"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:404
+msgid "Choose input field type"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:405
+msgid "Simple input text."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:405
+msgid "String"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:406
+msgid "Input field with number selection."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:406
+msgid "Number"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:407
+msgid "Dropdown field with Yes/No options."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:407
+msgid "Boolean"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:408
+msgid "Dropdown populated with options set."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:408
+msgid "Select"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:410
+msgid "Displays the input field accordingly."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:414
+msgid "Option Label"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:415
+msgid "Option Value"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:436
+msgid "Field Required"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:437
+#: inc/admin-screens/custom-app-edit-actions.php:445
+msgid "Choose option"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:438
+msgid "Field is required."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:439
+msgid "Field is optional."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:441
+msgid "Is this a required field?"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:444
+msgid "Is this a path variable?"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:446
+msgid "Field used in endpoint URL as path or query string."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:447
+msgid "Field is not used in endpoint URL."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:449
+msgid ""
+"Is this a field used in endpoint URL as path or query string? If yes, it "
+"will be automatically excluded from the request body, to avoid conflicts."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:459
+msgid ""
+"If set, this will be used as default value if no value is submitted for "
+"this field in the action step."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:473
+msgid "cURL Request"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:478
+msgid "cURL Request Code"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:498
+msgid ""
+"Copy the cURL request code here and click on the \"Process Request\" button "
+"to import as action."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:503
+#: inc/admin-screens/custom-app-edit-actions.php:540
+msgid "Process Request"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:513
+msgid "json Request"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:518
+msgid "JSON Code"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-actions.php:535
+msgid ""
+"Copy the JSON code here from your API documentation, and click on the "
+"\"Process Request\" button to import."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:51
+#: inc/admin-screens/custom-app-edit-triggers.php:114
+msgid "Create New Trigger"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:57
+msgid "Create and manage your Custom App triggers here."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:95
+msgid "Configure your app trigger details like name, description and API details."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:105
+msgid "Create and manage triggers"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:107
+msgid "Start configuring your custom app triggers which executes the workflow."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:108
+msgid "FlowMattic supports following trigger types for custom apps."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:111
+msgid "Webhooks"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:146
+msgid "Rename trigger"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:153
+msgid "Delete Trigger"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:182
+msgid "Trigger Settings"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:188
+#: inc/admin-screens/custom-app-edit-triggers.php:229
+msgid "Trigger Name"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:190
+msgid "Name for this trigger. Eg. Webhook received."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:193
+msgid "Trigger Description"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:195
+msgid ""
+"Describe this trigger in a few words Eg. Triggers when webhook data "
+"received."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:198
+msgid "Trigger Type"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:199
+msgid "Choose trigger type"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:200
+msgid "Setup webhook with instructions."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:200
+msgid "Webhooks with instructions"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:203
+msgid "FlowMattic currently supports only webhooks trigger for custom apps."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:207
+msgid "Setup Instructions"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:209
+msgid "Provide instructions to setup this webhook in your app. HTML is allowed."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:212
+msgid "Save Trigger"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit-triggers.php:231
+msgid "Name the new trigger. Eg. Webhook received."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:52
+#: inc/admin-screens/custom-apps.php:56 inc/admin-screens/custom-apps.php:149
+msgid "Create New App"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:58
+msgid "Create and manage your Custom App here."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:96
+msgid ""
+"Configure basic details associated with your app like App Name, "
+"Description, Logo and Authentication method."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:102
+#: inc/admin-screens/custom-apps.php:77
+msgid "App Name"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:104
+msgid "This will be used to display the App name in your workflow."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:111
+msgid "Description is for your internal use only."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:118
+msgid "Choose Default Authentication"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:119
+msgid "Choose Connect Account"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:120
+msgid "No Authentication"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:132
+msgid ""
+"Choose the connect account you want to use as default for this app as "
+"authentication provider. You can use the different connect in the workflow."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:135
+#: inc/admin-screens/custom-apps.php:75
+msgid "App Logo"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:142
+msgid "Choose logo"
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:143
+msgid "This will be used to display the App logo in your workflow."
+msgstr ""
+
+#: inc/admin-screens/custom-app-edit.php:148
+msgid "Save App Info"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:49
+msgid "Create and manage custom apps"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:51
+msgid ""
+"With custom apps, you can create a new custom integration for your app "
+"inside FlowMattic."
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:52
+msgid ""
+"No coding skills required. You just need to get the API information such as "
+"API Endpoint URL, API Parameters to pass etc."
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:76
+msgid "App ID"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:78
+msgid "Connect"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:97 inc/admin-screens/custom-apps.php:98
+msgid "Edit App"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:101 inc/admin-screens/custom-apps.php:102
+msgid "Export App"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:110
+msgid "Delete App"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:169
+msgid ""
+"License key not registered. Please register your license first to use "
+"custom apps."
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:199
+msgid "Import Custom App"
+msgstr ""
+
+#: inc/admin-screens/custom-apps.php:205
+msgid "Upload App JSON File"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:49
+msgid "What would you like to automate?"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:64
+msgid ""
+"Example: When new order is placed in WooCommerce, add a new row in Google "
+"Sheets"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:65
+msgid ""
+"FlowMattic will assist you in creating workflows based on your description. "
+"Click the magic button to get started!"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:66
+msgid "Note: This feature is in beta and may not work as expected in all cases."
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:72
+msgid "Your Stats"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:81
+msgid "Workflows Created"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:95
+msgid "Apps Connected"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:109
+msgid "Custom Apps Created"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:125
+msgid "Tasks Executions"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:129
+msgid "/ Last %s days"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:140
+msgid "Active Integrations"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:153
+msgid "Workflow Templates"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:156
+msgid "Get started with workflow templates in just a click."
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:195 inc/admin-screens/dashboard.php:485
+#: inc/admin-screens/tasks-history.php:215 inc/admin-screens/workflows.php:85
+msgid "Click to expand"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:213
+msgid "Use Template"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:225
+msgid "Please enter your license key to get access to the workflow templates."
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:239
+msgid "Load More"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:249
+msgid "Import Workflow Template"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:256
+msgid "Name the workflow you want to import this template as."
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:259
+msgid ""
+"NOTE: Make sure you have installed the integrations before importing the "
+"workflow template"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:262
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:492 inc/admin-screens/workflows.php:109
+msgid "Created on %s"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:506 inc/admin-screens/workflows.php:29
+msgid ""
+"No workflows created. Click the Create Workflow button and create a new "
+"workflow to show it here."
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:510
+msgid "See All Workflows"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:524
+msgid "Creating Workflow"
+msgstr ""
+
+#: inc/admin-screens/dashboard.php:544
+msgid "Use Workflow"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:38 inc/admin-screens/integrations.php:76
+#: inc/class-flowmattic-admin.php:713 inc/class-flowmattic-admin.php:1335
+msgid "Integrations"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:44
+msgid "Refresh Integrations"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:46
+msgid "Refresh"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:57 inc/admin-screens/workflows.php:230
+msgid "Filters:"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:60 inc/admin-screens/workflows.php:233
+#: inc/admin-screens/workflows.php:246 inc/admin-screens/workflows.php:255
+msgid "All"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:63
+msgid "Core"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:66
+msgid "External"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:69 inc/admin-screens/integrations.php:161
+msgid "Installed"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:72
+msgid "Updates"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:86
+msgid ""
+"License key not registered. Please register your license first in order to "
+"install apps."
+msgstr ""
+
+#: inc/admin-screens/integrations.php:130
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:144
+msgid "core, all"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:155
+msgid "Install"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:166
+#: inc/admin-screens/tasks-history.php:1072
+msgid "Update"
+msgstr ""
+
+#: inc/admin-screens/integrations.php:182
+msgid "external, all"
+msgstr ""
+
+#: inc/admin-screens/license.php:10
+msgid "FlowMattic License"
+msgstr ""
+
+#: inc/admin-screens/license.php:14
+msgid ""
+"Register your license key to receive automatic updates, unlock features and "
+"receive support."
+msgstr ""
+
+#: inc/admin-screens/settings.php:22 inc/class-flowmattic-admin.php:730
+#: inc/class-flowmattic-admin.php:1352
+msgid "Settings"
+msgstr ""
+
+#: inc/admin-screens/settings.php:49
+msgid "Notification of Failed Tasks"
+msgstr ""
+
+#: inc/admin-screens/settings.php:53 inc/admin-screens/settings.php:73
+msgid "Enable Notifications"
+msgstr ""
+
+#: inc/admin-screens/settings.php:58 inc/admin-screens/settings.php:63
+#: inc/admin-screens/settings.php:83
+msgid "To receive notification of failed task, this email will be used."
+msgstr ""
+
+#: inc/admin-screens/settings.php:61 inc/admin-screens/settings.php:81
+msgid "Notification Email"
+msgstr ""
+
+#: inc/admin-screens/settings.php:69
+msgid "Notification of Authentication Expiry"
+msgstr ""
+
+#: inc/admin-screens/settings.php:78
+msgid ""
+"To receive notification of authentication expiry in Connects, this email "
+"will be used."
+msgstr ""
+
+#: inc/admin-screens/settings.php:92
+msgid ""
+"Enter the interval in days to clear the old task history. Eg. 30 to remove "
+"the task history older than 30 days."
+msgstr ""
+
+#: inc/admin-screens/settings.php:95
+msgid "Allow Integration Page Access"
+msgstr ""
+
+#: inc/admin-screens/settings.php:100
+msgid ""
+"Control the access of Integrations page for the users with FlowMattic "
+"Workflow Manager roles."
+msgstr ""
+
+#: inc/admin-screens/settings.php:105
+msgid "Allow Integration Deletion"
+msgstr ""
+
+#: inc/admin-screens/settings.php:110
+msgid ""
+"Control the access of Uninstalling Integrations for the users with "
+"FlowMattic Workflow Manager roles."
+msgstr ""
+
+#: inc/admin-screens/settings.php:113
+msgid "Webhook URL Base"
+msgstr ""
+
+#: inc/admin-screens/settings.php:115
+msgid "Regular"
+msgstr ""
+
+#: inc/admin-screens/settings.php:116
+msgid "REST API"
+msgstr ""
+
+#: inc/admin-screens/settings.php:118
+msgid ""
+"Control the URL base for the webhook. Regular works with permalinks, and "
+"REST API base works with WordPress REST API. Use REST API base when you "
+"have issues with permalink based webhooks."
+msgstr ""
+
+#: inc/admin-screens/settings.php:124
+msgid "Disable Core Integrations"
+msgstr ""
+
+#: inc/admin-screens/settings.php:125
+msgid ""
+"Disable the Core Integrations that you are not using to keep the workflow "
+"editor clean."
+msgstr ""
+
+#: inc/admin-screens/settings.php:159
+msgid "Save Settings"
+msgstr ""
+
+#: inc/admin-screens/status.php:27
+msgid "FlowMattic Status Page"
+msgstr ""
+
+#: inc/admin-screens/status.php:29
+msgid ""
+"Check your site configuration status. If any of the following is red, "
+"please contact your hosting provider and ask them to fix it to avoid issues "
+"with your workflows."
+msgstr ""
+
+#: inc/admin-screens/status.php:36
+msgid "Permalink Structure"
+msgstr ""
+
+#: inc/admin-screens/status.php:38
+msgid "Recommended: /%postname"
+msgstr ""
+
+#: inc/admin-screens/status.php:45
+msgid "Secure Site URL"
+msgstr ""
+
+#: inc/admin-screens/status.php:47
+msgid "Required: HTTPS"
+msgstr ""
+
+#: inc/admin-screens/status.php:54
+msgid "PHP Version"
+msgstr ""
+
+#: inc/admin-screens/status.php:56
+msgid "Required: 7.4 or greater"
+msgstr ""
+
+#: inc/admin-screens/status.php:63
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/admin-screens/status.php:65
+msgid "Required: 256 MB or greater"
+msgstr ""
+
+#: inc/admin-screens/status.php:72
+msgid "PHP Timeout Limit"
+msgstr ""
+
+#: inc/admin-screens/status.php:74
+msgid "Required: 0 or greater than 300"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:85
+msgid "No tasks found."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:227
+#: inc/admin-screens/tasks-history.php:269
+msgid "Recorded on %s"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:244
+#: inc/admin-screens/tasks-history.php:757
+msgid "Partial Failed"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:246
+#: inc/admin-screens/tasks-history.php:757
+msgid "Failed"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:248
+#: inc/admin-screens/tasks-history.php:756
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:670
+#: inc/apps/delay/class-flowmattic-delay.php:156
+#: inc/apps/filter/class-filter.php:419 inc/apps/filter/class-filter.php:427
+#: inc/apps/filter/class-filter.php:700 inc/apps/filter/class-filter.php:708
+#: inc/apps/router/class-flowmattic-router.php:307
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:190
+#: inc/class-flowmattic-workflow.php:324 inc/class-flowmattic-workflow.php:396
+#: inc/class-flowmattic-workflow.php:478
+msgid "Success"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:260
+msgid "View Details"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:316
+msgid "Capture data"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:340
+msgid "Action step removed from workflow!"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:346
+msgid "Route - "
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:426
+msgid "Response Data"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:429
+msgid "Request Payload"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:436
+msgid "Scheduled workflow executed, there's no data captured at this step."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:503
+msgid "Cancel Delay"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:507
+msgid "Click the button to cancel the delay and stop the workflow."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:602
+msgid "Re-execute"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:623
+#: inc/admin-screens/tasks-history.php:700
+msgid "Filters"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:631
+msgid "Date Range"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:641
+msgid "Select Workflow"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:664
+msgid "Apply Filters"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:672 inc/class-flowmattic-admin.php:727
+msgid "Task History"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:695
+msgid "Search"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:709
+msgid "Filters Applied:"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:712
+msgid "Workflow:"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:715
+msgid "Date Range:"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:719
+msgid "Remove Filters"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:729
+msgid "Execute Selected"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:732
+msgid "Delete Selected"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:742 inc/admin-screens/workflows.php:277
+msgid "Applications"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:746 inc/admin-screens/workflows.php:275
+#: inc/class-flowmattic-admin.php:733 inc/class-flowmattic-admin.php:1353
+#: inc/helpers.php:367
+msgid "Status"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:755
+msgid "Filter by Status"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:780
+msgid "Previous"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:781
+msgid "Next"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:806
+msgid "Re-execute Workflow"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:820
+msgid ""
+"Here is the response of your trigger app. You can use the same data again "
+"or you can change it manually to re-execute your workflow."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:837
+msgid "Re-execute now"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:886
+#: inc/admin-screens/tasks-history.php:962
+#: inc/admin-screens/tasks-history.php:1038
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:887
+msgid "You are about to execute the selected tasks."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:890
+msgid "Yes, execute"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:891
+#: inc/admin-screens/tasks-history.php:967
+#: inc/admin-screens/tasks-history.php:1043
+msgid "No, cancel"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:933
+#: inc/admin-screens/tasks-history.php:1006
+#: inc/admin-screens/tasks-history.php:1082
+msgid "Success!"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:942
+#: inc/admin-screens/tasks-history.php:1015
+#: inc/admin-screens/tasks-history.php:1089
+msgid "Error!"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:943
+#: inc/admin-screens/tasks-history.php:1016
+#: inc/admin-screens/tasks-history.php:1090
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:963
+msgid "You are about to delete the selected tasks."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:966
+msgid "Yes, delete"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:1039
+msgid "You are about to cancel the delay and stop the workflow."
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:1042
+msgid "Yes, cancel"
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:1072
+#: inc/class-flowmattic-workflow.php:1765
+msgid "Delay was cancelled at "
+msgstr ""
+
+#: inc/admin-screens/tasks-history.php:1075
+msgid "Cancelled"
+msgstr ""
+
+#: inc/admin-screens/variables.php:21 inc/admin-screens/variables.php:192
+msgid "FlowMattic Variables"
+msgstr ""
+
+#: inc/admin-screens/variables.php:29
+msgid "New Variable"
+msgstr ""
+
+#: inc/admin-screens/variables.php:35
+msgid ""
+"Create and manage custom variables that can be used to store and manipulate "
+"data within your workflows."
+msgstr ""
+
+#: inc/admin-screens/variables.php:42
+msgid "Custom Variables"
+msgstr ""
+
+#: inc/admin-screens/variables.php:54
+msgid "No custom variables found."
+msgstr ""
+
+#: inc/admin-screens/variables.php:55
+msgid ""
+"Create your first custom variable by clicking the \"New Variable\" button "
+"above."
+msgstr ""
+
+#: inc/admin-screens/variables.php:64 inc/admin-screens/variables.php:115
+#: inc/admin-screens/variables.php:164
+msgid "Variable Name"
+msgstr ""
+
+#: inc/admin-screens/variables.php:66 inc/admin-screens/variables.php:117
+msgid "Value"
+msgstr ""
+
+#: inc/admin-screens/variables.php:107
+msgid "System Variables"
+msgstr ""
+
+#: inc/admin-screens/variables.php:159 inc/admin-screens/variables.php:547
+msgid "Create New Custom Variable"
+msgstr ""
+
+#: inc/admin-screens/variables.php:166
+msgid ""
+"Variable name should be unique and should not contain any special "
+"characters or spaces."
+msgstr ""
+
+#: inc/admin-screens/variables.php:169
+msgid "Variable Value"
+msgstr ""
+
+#: inc/admin-screens/variables.php:171
+msgid "Variable value can be any text, number or boolean value."
+msgstr ""
+
+#: inc/admin-screens/variables.php:174
+msgid "Variable Description"
+msgstr ""
+
+#: inc/admin-screens/variables.php:176
+msgid "Variable description is optional and is used to describe the variable."
+msgstr ""
+
+#: inc/admin-screens/variables.php:180 inc/admin-screens/variables.php:550
+msgid "Create Variable"
+msgstr ""
+
+#: inc/admin-screens/variables.php:197
+msgid "What are FlowMattic Variables?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:198
+msgid ""
+"FlowMattic Variables are special tags that can be used to store and "
+"manipulate data within your workflows. You can create custom variables and "
+"use them in your workflows to store and retrieve any data in text format, "
+"and use them in your workflows to retrieve its value."
+msgstr ""
+
+#: inc/admin-screens/variables.php:201
+msgid "How to use FlowMattic Variables?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:202
+msgid ""
+"You can use FlowMattic Variables in your workflows by using the variable "
+"name in double curly braces. For example, if you have a variable named "
+"\"user_name\", you can use it in your workflow by using \"{{user_name}}\"."
+msgstr ""
+
+#: inc/admin-screens/variables.php:203
+msgid ""
+"You can also use FlowMattic Variables in your workflows by selecting the "
+"variable from the \"Variables\" dropdown in the workflow builder."
+msgstr ""
+
+#: inc/admin-screens/variables.php:206
+msgid "How to create a new FlowMattic Variable?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:207
+msgid ""
+"You can create a new FlowMattic Variable by clicking the \"New Variable\" "
+"button above. You will be asked to enter the variable name, variable value "
+"and variable description. Variable name should be unique and should not "
+"contain any special characters or spaces. Variable value can be any text, "
+"number or boolean value. Variable description is optional and is used to "
+"describe the variable."
+msgstr ""
+
+#: inc/admin-screens/variables.php:210
+msgid "How to edit a FlowMattic Variable?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:211
+msgid ""
+"You can edit a FlowMattic Variable by clicking the \"Edit\" button next to "
+"the variable. You will be asked to enter the new variable value and "
+"variable description. Variable value can be any text, number or boolean "
+"value. Variable description is optional and is used to describe the "
+"variable."
+msgstr ""
+
+#: inc/admin-screens/variables.php:214
+msgid "How to delete a FlowMattic Variable?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:215
+msgid ""
+"You can delete a FlowMattic Variable by clicking the \"Delete\" button next "
+"to the variable. You will be asked to confirm the deletion. Once deleted, "
+"the variable cannot be recovered."
+msgstr ""
+
+#: inc/admin-screens/variables.php:218
+msgid "Can I call PHP function as variable value?"
+msgstr ""
+
+#: inc/admin-screens/variables.php:219
+msgid ""
+"Yes, you can! Just make sure to prepend the value with PHP: and then use "
+"your function name with parenthesis. For example, "
+msgstr ""
+
+#: inc/admin-screens/variables.php:222
+msgid "Few things to note about FlowMattic Variables"
+msgstr ""
+
+#: inc/admin-screens/variables.php:225
+msgid "FlowMattic Variables are case sensitive."
+msgstr ""
+
+#: inc/admin-screens/variables.php:226
+msgid ""
+"You can modify the value of custom variables in your workflows. However, "
+"you cannot modify the value of system variables."
+msgstr ""
+
+#: inc/admin-screens/variables.php:227
+msgid ""
+"No action is reversible. Once deleted, or modified, the variable cannot be "
+"recovered."
+msgstr ""
+
+#: inc/admin-screens/variables.php:228
+msgid ""
+"Variable values are global. If you modify the value of a variable in one "
+"workflow, it will be modified in all other workflows as well."
+msgstr ""
+
+#: inc/admin-screens/variables.php:326
+msgid "Please enter a variable name."
+msgstr ""
+
+#: inc/admin-screens/variables.php:338
+msgid "Please enter a variable value."
+msgstr ""
+
+#: inc/admin-screens/variables.php:349
+msgid "Creating variable..."
+msgstr ""
+
+#: inc/admin-screens/variables.php:390
+msgid "Variable created successfully."
+msgstr ""
+
+#: inc/admin-screens/variables.php:411
+msgid "Variable updated successfully."
+msgstr ""
+
+#: inc/admin-screens/variables.php:422
+msgid "There was an error creating the variable. Please try again."
+msgstr ""
+
+#: inc/admin-screens/variables.php:457
+msgid "Deleting variable..."
+msgstr ""
+
+#: inc/admin-screens/variables.php:490 inc/class-flowmattic-variables.php:405
+msgid "Variable deleted successfully."
+msgstr ""
+
+#: inc/admin-screens/variables.php:498
+msgid "There was an error deleting the variable. Please try again."
+msgstr ""
+
+#: inc/admin-screens/variables.php:535
+msgid "Edit Custom Variable"
+msgstr ""
+
+#: inc/admin-screens/variables.php:538
+msgid "Update Variable"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:127
+msgid "Workflow Access: "
+msgstr ""
+
+#: inc/admin-screens/workflows.php:128
+msgid "Workflow Manager"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:137
+msgid "Edit workflow"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:138
+msgid "Edit"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:148 inc/admin-screens/workflows.php:149
+msgid "Delete task history"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:161 inc/admin-screens/workflows.php:162
+msgid "Export workflow"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:170 inc/admin-screens/workflows.php:171
+msgid "Clone workflow"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:177
+msgid "Delete workflow"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:201 inc/admin-screens/workflows.php:268
+#: inc/class-flowmattic-admin.php:719 inc/class-flowmattic-admin.php:1340
+msgid "Workflows"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:236
+msgid "Live"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:239
+msgid "Draft"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:246
+msgid "Folders: "
+msgstr ""
+
+#: inc/admin-screens/workflows.php:251
+msgid "Name"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:252
+msgid "Count"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:289
+msgid ""
+"License key not registered. Please register your license first in order to "
+"create and manage workflows."
+msgstr ""
+
+#: inc/admin-screens/workflows.php:324
+msgid "Import Workflow"
+msgstr ""
+
+#: inc/admin-screens/workflows.php:330
+msgid "Upload Workflow JSON File"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:43
+msgid "API by FlowMattic"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:127
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:461
+msgid "JSON - With Parameters"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:131
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:465
+msgid "Custom JSON - Use Your Code"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:135
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:469
+msgid "Form Data"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:139
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:473
+msgid "URL Encoded Form Data"
+msgstr ""
+
+#: inc/apps/api/class-flowmattic-api.php:906
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:146
+msgid "Request has no response data"
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:38
+msgid "API Polling"
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:72
+msgid "API Changes Detected"
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:73
+msgid "Trigger when app detects changes in the API response."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:120
+msgid "API Endpoint URL is empty."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:128
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:143
+msgid "Connect ID is empty."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:267
+msgid "API Endpoint URL not found."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:278
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:268
+msgid "API response is empty."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:287
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:419
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:274
+msgid "API response received."
+msgstr ""
+
+#: inc/apps/api-polling/class-flowmattic-api-polling.php:398
+msgid "No changes detected in the API response."
+msgstr ""
+
+#: inc/apps/chatbot-app/class-flowmattic-chatbot-app.php:38
+msgid "FlowMattic Chatbot"
+msgstr ""
+
+#: inc/apps/chatbot-app/class-flowmattic-chatbot-app.php:69
+msgid "AI Response Received"
+msgstr ""
+
+#: inc/apps/chatbot-app/class-flowmattic-chatbot-app.php:70
+msgid "Trigger when a response is received from the AI."
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:22
+msgid "Counter"
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:24
+msgid "Store workflow execution count."
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:53
+msgid "Incremental Counter"
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:54
+msgid "Increase the number every time workflow executes."
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:57
+msgid "Decremental Counter"
+msgstr ""
+
+#: inc/apps/counter/class-counter.php:58
+msgid "Decrement the number every time workflow executes."
+msgstr ""
+
+#: inc/apps/csv-parser/class-csv-parser.php:45
+msgid "CSV Parser by FlowMattic"
+msgstr ""
+
+#: inc/apps/csv-parser/class-csv-parser.php:47
+msgid "Parse CSV file in your workflow."
+msgstr ""
+
+#: inc/apps/csv-parser/class-csv-parser.php:76
+msgid "Parse CSV File"
+msgstr ""
+
+#: inc/apps/csv-parser/class-csv-parser.php:77
+msgid "Parse any CSV file URL into JSON data."
+msgstr ""
+
+#: inc/apps/csv-parser/class-csv-parser.php:105
+#: inc/apps/xml-parser/class-flowmattic-xml-parser.php:107
+msgid "CSV File URL is required."
+msgstr ""
+
+#: inc/apps/custom/class-custom.php:24
+msgid ""
+"Run your custom action to pass data to this workflow using the above code. "
+"Do not replace or remove the <strong>Workflow ID</strong> from the code."
+msgstr ""
+
+#: inc/apps/custom/class-custom.php:95
+msgid "Custom action triggered"
+msgstr ""
+
+#: inc/apps/custom/class-custom.php:96
+msgid "Triggers when the action is triggered with the code below"
+msgstr ""
+
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:188
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:135
+msgid "Error"
+msgstr ""
+
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:189
+msgid "Connect ID not provided"
+msgstr ""
+
+#: inc/apps/custom-user-app/class-flowmattic-custom-user-app.php:671
+msgid "Request returned no response data"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:36
+msgid "Date/Time Formatter"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:38
+msgid "Format date and time."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:67
+msgid "Add/Subtract Time"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:68
+msgid ""
+"Manipulate a date and/or time by adding/subtracting days, months, years, "
+"hours, minutes, seconds."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:71
+msgid "Modify Current Date"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:72
+msgid "Get the modified current date/time."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:75
+msgid "Compare Two Dates"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:76
+msgid "Calculate and get the duration between two dates."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:79
+msgid "Modify Date Format"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:80
+msgid "Modify the given date format to another format."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:83
+msgid "Calculate Age"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:84
+msgid "Calculate the age based on the given date."
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:178
+msgid "Invalid From date format selected"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:210
+msgid "Invalid time format selected"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:322
+msgid "Invalid date format for start date"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:331
+msgid "Invalid date format for end date"
+msgstr ""
+
+#: inc/apps/date-time-formatter/class-date-time-formatter.php:439
+msgid "Invalid date format for birth date"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:38
+msgid "Delay by FlowMattic"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:72
+msgid "Delay For"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:73
+msgid "Wait for a certain amount of time before executing the action step"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:76
+msgid "Delay Until"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:77
+msgid "Wait to execute the action step until the set date or time"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:144
+#: inc/apps/router/class-flowmattic-router.php:258
+#: inc/class-flowmattic-workflow.php:371
+#. translators: Delay unit.
+#. Translators: %1$s: Delay value, %2$s: Delay unit.
+msgid "Execution delayed for %1$s %2$s"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:147
+#: inc/apps/router/class-flowmattic-router.php:291
+#: inc/class-flowmattic-workflow.php:456
+#. translators: Delay time.
+#. Translators: %s: Delay time.
+msgid "Execution paused until %s"
+msgstr ""
+
+#: inc/apps/delay/class-flowmattic-delay.php:150
+msgid ""
+"Delay execution time already passed on %s. Execution of the next step will "
+"be attempted in a few moments."
+msgstr ""
+
+#: inc/apps/email/class-flowmattic-email.php:38
+msgid "Email by FlowMattic"
+msgstr ""
+
+#: inc/apps/email/class-flowmattic-email.php:69
+msgid "Send Email"
+msgstr ""
+
+#: inc/apps/email/class-flowmattic-email.php:70
+msgid "Send an email"
+msgstr ""
+
+#: inc/apps/email/class-flowmattic-email.php:238
+msgid "Error sending email"
+msgstr ""
+
+#: inc/apps/email/class-flowmattic-email.php:246
+msgid "Message has been sent"
+msgstr ""
+
+#: inc/apps/email-parser/class-flowmattic-email-parser.php:23
+msgid "Email Parser by FlowMattic"
+msgstr ""
+
+#: inc/apps/email-parser/class-flowmattic-email-parser.php:103
+#: inc/apps/haro-email-parser/class-flowmattic-haro-email-parser.php:67
+msgid "Email Received"
+msgstr ""
+
+#: inc/apps/email-parser/class-flowmattic-email-parser.php:104
+#: inc/apps/haro-email-parser/class-flowmattic-haro-email-parser.php:68
+msgid "Triggers when an email is received on the email parser email."
+msgstr ""
+
+#: inc/apps/email-parser/class-flowmattic-email-parser.php:107
+msgid "Email Received (v2)"
+msgstr ""
+
+#: inc/apps/email-parser/class-flowmattic-email-parser.php:108
+msgid "Triggers when an email is received on the email parser v2 email."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:42
+msgid "Filter by FlowMattic"
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:44
+msgid ""
+"Connect your Filter account. Your credentials are stored securely in your "
+"site."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:45
+msgid ""
+"Your Filter account is already connected. To re-connect Filter, click the "
+"button above. Your credentials are stored securely in your site."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:141
+msgid "Continue If Condition Meet"
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:144
+msgid "Exit If Condition Meet"
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:420
+msgid "Conditions met! Execution will be continued."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:428
+msgid "Conditions does not meet. Execution will stop."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:701
+msgid "Conditions does not meet. Execution will be continued."
+msgstr ""
+
+#: inc/apps/filter/class-filter.php:709
+msgid "Conditions met!  Execution will stop."
+msgstr ""
+
+#: inc/apps/haro-email-parser/class-flowmattic-haro-email-parser.php:35
+msgid "HARO Email Parser"
+msgstr ""
+
+#: inc/apps/iterator/class-flowmattic-iterator.php:38
+msgid "Iterator by FlowMattic"
+msgstr ""
+
+#: inc/apps/iterator/class-flowmattic-iterator.php:71
+msgid "Loop Through Array"
+msgstr ""
+
+#: inc/apps/iterator-end/class-iterator-end.php:24
+#: inc/apps/iterator-storage/class-iterator-storage.php:24
+msgid "Store data for iterator."
+msgstr ""
+
+#: inc/apps/iterator-end/class-iterator-end.php:53
+msgid "End the Iterator"
+msgstr ""
+
+#: inc/apps/iterator-end/class-iterator-end.php:54
+msgid "Iterator will stop at this action step."
+msgstr ""
+
+#: inc/apps/iterator-end/class-iterator-end.php:78
+#: inc/class-flowmattic-workflow.php:724
+msgid ""
+"Iterator will stop at this action step. Next steps will be executed after "
+"the iterator is fully executed"
+msgstr ""
+
+#: inc/apps/iterator-storage/class-iterator-storage.php:53
+msgid "Store as String"
+msgstr ""
+
+#: inc/apps/iterator-storage/class-iterator-storage.php:54
+msgid "Store the data as a string."
+msgstr ""
+
+#: inc/apps/iterator-storage/class-iterator-storage.php:57
+msgid "Store as Array"
+msgstr ""
+
+#: inc/apps/iterator-storage/class-iterator-storage.php:58
+msgid "Store the data as an array."
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:36
+msgid "Maths by FlowMattic"
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:38
+msgid "Execute math functions in your workflow."
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:67
+msgid "Execute Math Equation"
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:68
+msgid "Provide your math equation to execute and get results."
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:97
+msgid "Invalid math equation"
+msgstr ""
+
+#: inc/apps/maths/class-maths.php:116
+msgid "Something went wrong. Please check your math equation."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:42
+msgid "Number Formatter by FlowMattic"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:44
+msgid "Format number with different methods."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:73
+msgid "Format Number"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:74
+msgid "Format the given number to a new style."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:77
+msgid "Format Phone Number"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:78
+msgid "Format the given phone number with/without country code etc."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:81
+msgid "Format Currency"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:82
+msgid "Format the given currency to a new style."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:85
+msgid "Decimal Converter"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:86
+msgid "Convert the given number to a different decimal format."
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:89
+msgid "Minor Unit Conversion"
+msgstr ""
+
+#: inc/apps/number-formatter/class-flowmattic-number-formatter.php:90
+msgid "Convert the given number to a different minor unit."
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:47
+msgid "PHP Array by FlowMattic"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:78
+msgid "Get Value by Index"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:79
+msgid "Get value of a specified index of an array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:82
+msgid "Get Array Count"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:83
+msgid "Get count of total number of items in array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:86
+msgid "Array Search"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:87
+msgid "Searches an array for a given value and returns the key"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:90
+msgid "Convert List to Array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:91
+msgid "Converts a list to an array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:94
+msgid "Convert Array to List"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:95
+msgid "Converts an array to a list"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:98
+msgid "Insert Value at Index"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:99
+msgid "Inserts a value at a specified index in an array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:102
+msgid "New Line to Array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:103
+msgid "Converts a new line separated list to an array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:106
+msgid "Extract JSON Data"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:107
+msgid "Extracts JSON data to individual items"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:110
+msgid "Itemize Array"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:111
+msgid "Converts an array to individual items"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:147
+#: inc/apps/php-array/class-flowmattic-php-array.php:367
+#: inc/apps/php-array/class-flowmattic-php-array.php:408
+msgid "Invalid JSON format."
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:165
+msgid "Array index not exits"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:250
+msgid "Nothing found for the given value"
+msgstr ""
+
+#: inc/apps/php-array/class-flowmattic-php-array.php:318
+msgid "Index not found"
+msgstr ""
+
+#: inc/apps/php-functions/class-flowmattic-php-functions.php:47
+msgid "PHP Functions by FlowMattic"
+msgstr ""
+
+#: inc/apps/php-functions/class-flowmattic-php-functions.php:78
+msgid "Call PHP Function"
+msgstr ""
+
+#: inc/apps/php-functions/class-flowmattic-php-functions.php:201
+msgid "Function or method does not exists"
+msgstr ""
+
+#: inc/apps/plugin-actions/class-plugin-actions.php:22
+msgid "Plugin Actions"
+msgstr ""
+
+#: inc/apps/plugin-actions/class-plugin-actions.php:24
+msgid "Enter WordPress or your plugin action to trigger this workflow."
+msgstr ""
+
+#: inc/apps/plugin-actions/class-plugin-actions.php:129
+msgid "Plugin or WP action triggered"
+msgstr ""
+
+#: inc/apps/plugin-actions/class-plugin-actions.php:130
+msgid "Triggers when the action provided is triggered by your plugin or WP"
+msgstr ""
+
+#: inc/apps/router/class-flowmattic-router.php:38
+msgid "Router by FlowMattic"
+msgstr ""
+
+#: inc/apps/router/class-flowmattic-router.php:69
+msgid "Conditionally run..."
+msgstr ""
+
+#: inc/apps/router/class-flowmattic-router.php:454
+#: inc/class-flowmattic-workflow.php:869
+msgid "Workflow step validation not passed"
+msgstr ""
+
+#: inc/apps/router/class-flowmattic-router.php:502
+#: inc/class-flowmattic-workflow.php:927 inc/class-flowmattic-workflow.php:1535
+msgid "Conditions does not meet. This step will not be executed."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:38
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:73
+msgid "New Item in RSS Feed"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:74
+msgid "Trigger on new RSS Feed items"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:90
+msgid "Create New Item in RSS Feed"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:91
+msgid "Power your custom RSS Feed with FlowMattic"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:94
+msgid "Retrieve RSS Feed Items"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:95
+msgid "Retrieves RSS feed items from a specified URL"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:135
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:555
+msgid "RSS Feed URL is empty."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:257
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:577
+msgid "RSS Feed URL not found."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:412
+msgid "New feed item detected"
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:482
+msgid "RSS Feed Slug is empty."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:523
+msgid "Feed item not added."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:532
+msgid "Feed item added."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:588
+msgid "Feed response is empty."
+msgstr ""
+
+#: inc/apps/rss-feed/class-flowmattic-rss-feed.php:639
+msgid "RSS Feed response received."
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:19
+msgid "Schedule by FlowMattic"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:41
+msgid "Every X Minutes"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:43
+#: inc/apps/schedule/class-flowmattic-schedule.php:49
+#: inc/apps/schedule/class-flowmattic-schedule.php:55
+msgid "Trigger on Weekends?"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:47
+msgid "Every Hour"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:53
+msgid "Every Day"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:56
+#: inc/apps/schedule/class-flowmattic-schedule.php:63
+#: inc/apps/schedule/class-flowmattic-schedule.php:70
+msgid "Time of the day"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:60
+msgid "Every Week"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:62
+msgid "Day of the Week"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:67
+msgid "Every Month"
+msgstr ""
+
+#: inc/apps/schedule/class-flowmattic-schedule.php:69
+msgid "Day of the month"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:36
+msgid "Text Formatter by FlowMattic"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:38
+msgid "Format text with different methods."
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:67
+msgid "Extract Pattern"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:68
+msgid "Provide regular expression to extract string/text."
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:71
+msgid "Find in Text"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:72
+msgid "Search text in the given content."
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:75
+msgid "Replace Text"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:76
+msgid "Search and replace text in the given content."
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:79
+msgid "Basic Formatting"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:80
+msgid "Format text as capitalize, lowercase, uppercase, wordcount etc."
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:83
+msgid "Split Text"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:84
+msgid "Split the text on a character or word and return a segment"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:87
+msgid "Text Between"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:88
+msgid "Extract text between two strings"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:92
+msgid "Return a default value if the text is empty"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:95
+msgid "Truncate"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:96
+msgid ""
+"Limit your text to a specific character length, and delete anything over "
+"that"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:99
+msgid "URL Encode"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:100
+msgid "Encodes text for use in URLs"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:103
+msgid "URL Decode"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:104
+msgid "Decodes text from URL string"
+msgstr ""
+
+#: inc/apps/text-formatter/class-text-formatter.php:404
+msgid "Content is empty"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:44
+msgid "FlowMattic Tools"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:46
+msgid "Tools to manage your workflows in better way"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:75
+msgid "Get Variable Value"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:76
+msgid "Get the value of a variable."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:79
+msgid "Set Variable Value"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:80
+msgid "Set the value of a variable."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:83
+msgid "Turn On Workflow"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:84
+msgid "Turn on a workflow by ID."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:87
+msgid "Turn Off Workflow"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:88
+msgid "Turn off a workflow by ID."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:91
+msgid "Get Workflow Status"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:92
+msgid "Get the status of a workflow by ID."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:95
+msgid "Redirect to URL"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:96
+msgid ""
+"Redirect the user to given URL. Works only if the triggering app allows to "
+"redirect."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:160
+#: inc/apps/tools/class-flowmattic-tools.php:190
+#: inc/class-flowmattic-variables.php:314
+#: inc/class-flowmattic-variables.php:390
+msgid "Variable name is required."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:228
+#: inc/apps/tools/class-flowmattic-tools.php:266
+#: inc/apps/tools/class-flowmattic-tools.php:304
+msgid "Workflow ID is required."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:238
+#: inc/apps/tools/class-flowmattic-tools.php:276
+#: inc/apps/tools/class-flowmattic-tools.php:319
+msgid "Workflow not found."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:246
+msgid "Workflow turned on."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:284
+msgid "Workflow turned off."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:332
+msgid "Active"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:332
+msgid "Inactive"
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:353
+msgid "URL is required."
+msgstr ""
+
+#: inc/apps/tools/class-flowmattic-tools.php:365
+msgid "Redirect URL is required."
+msgstr ""
+
+#: inc/apps/webhook/class-flowmattic-webhook.php:23
+msgid "Webhooks by FlowMattic"
+msgstr ""
+
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:47
+msgid "Webhook Outgoing"
+msgstr ""
+
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:49
+msgid "Copy and enter the above webhook URL to your apps webhook setting"
+msgstr ""
+
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:79
+msgid "Submit Data to Webhook"
+msgstr ""
+
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:125
+msgid "Request response not available"
+msgstr ""
+
+#: inc/apps/webhook-outgoing/class-flowmattic-webhook-outgoing.php:137
+#. translators: error code.
+msgid ""
+"Error: %s. Webhook URL not found. Make sure your you enter the publicly "
+"accessible webhook url."
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:38
+msgid "Webhook Response"
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:40
+msgid "Configure the response to webhook trigger"
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:70
+msgid "Set Webhook Response"
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:71
+msgid "Set the custom webhook response from the data in action steps"
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:74
+msgid "Set Webhook Redirect URL"
+msgstr ""
+
+#: inc/apps/webhook-response/class-flowmattic-webhook-response.php:75
+msgid "Set the custom url to redirect the user after workflow completion"
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:45
+msgid "Webpage Parser by FlowMattic"
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:47
+msgid "Extract important data from any URL in your workflow."
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:76
+msgid "Parse Webpage by URL"
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:77
+msgid "Parse any Webpage URL into JSON data."
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:80
+msgid "Get Meta Tags"
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:81
+msgid "Get meta tags of any Webpage URL."
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:109
+msgid "Webpage File URL is required."
+msgstr ""
+
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:131
+#: inc/apps/webpage-parser/class-flowmattic-webpage-parser.php:397
+msgid ""
+"The PHP DOM extension is not enabled on this server. Please contact your "
+"hosting provider."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:57
+msgid "WordPress"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:172
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:280
+msgid "New User"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:173
+msgid "Triggers when a new user is registered"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:176
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:308
+msgid "New Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:177
+msgid "Triggers when a new post is published"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:180
+msgid "New Page"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:181
+msgid "Triggers when a new page is published"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:184
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:316
+msgid "New Media"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:185
+msgid "Triggers when a new media is uploaded"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:188
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:304
+msgid "New Comment"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:189
+msgid "Triggers when a new comment is added"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:192
+msgid "Comment Approved"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:193
+msgid "Triggers when a comment is approved"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:196
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:312
+msgid "Update Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:197
+msgid "Triggers when a published post is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:200
+msgid "Update Page"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:201
+msgid "Triggers when a published page is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:204
+msgid "User Login"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:205
+msgid "Triggers when an user logs into the site"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:208
+msgid "User Visits a Page/Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:209
+msgid "Triggers when an user visit page, post or any post type singular page."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:212
+msgid "User Deletes a Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:213
+msgid "Triggers when an user delete post of any post type."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:216
+msgid "Post Meta Updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:217
+msgid "Triggers when post meta is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:220
+msgid "Post Meta Field Updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:221
+msgid "Triggers when post meta specific field is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:224
+msgid "User Profile Updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:225
+msgid "Triggers when user profile is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:228
+msgid "User Profile Field Updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:229
+msgid "Triggers when user profile specific field is updated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:232
+msgid "User Resets Password"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:233
+msgid "Triggers when user resets the password"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:236
+msgid "User Deleted"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:237
+msgid "Triggers when user is deleted from the database"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:240
+msgid "Category Created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:241
+msgid "Triggers when a new category is created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:244
+msgid "Tag Created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:245
+msgid "Triggers when a new tag is created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:248
+msgid "Term Created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:249
+msgid "Triggers when a new term is created"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:252
+msgid "User Role Added"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:253
+msgid "Triggers when a new role is added to user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:256
+msgid "User Role Removed"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:257
+msgid "Triggers when a role is removed from user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:260
+msgid "User Role Changed"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:261
+msgid "Triggers when user role is changed"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:264
+msgid "User Role Changed From Specific to Defined"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:265
+msgid "Triggers when user role is changed from specific role to defined role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:281
+msgid "Create a new user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:284
+msgid "Update User"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:285
+msgid "Update an existing user details"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:288
+msgid "Add Role to User"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:289
+msgid "Add role to existing user roles of an user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:292
+msgid "Change User Role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:293
+msgid "Change user role of an existing user and set new role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:296
+msgid "Remove User Role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:297
+msgid "Remove user role of an existing user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:300
+msgid "Delete User"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:301
+msgid "Delete user account from site"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:305
+msgid "Create a new comment on post."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:309
+msgid "Create a new post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:313
+msgid "Update existing post of any post type with custom fields"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:317
+msgid "Create a new media"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:320
+msgid "Delete Media"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:321
+msgid "Delete media by ID from the media library"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:324
+msgid "Rename Media"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:325
+msgid "Rename media title in media library"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:328
+msgid "Update User Meta"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:329
+msgid "Update User Metadata"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:332
+msgid "Get User by ID"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:333
+msgid "Get an user profile by ID"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:336
+msgid "Get User by Email"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:337
+msgid "Get an user profile by Email"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:340
+msgid "Create Category"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:341
+msgid "Create a new category"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:344
+msgid "Create Tag"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:345
+msgid "Create a new post tag"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:348
+msgid "Create Role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:349
+msgid "Create a new user role, if not exists"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:352
+msgid "Get Post Metadata"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:353
+msgid "Retrieve all or custom metadata from any post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:356
+msgid "Get User Metadata"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:357
+msgid "Retrieve all or custom metadata from any user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:360
+msgid "Get Posts by Post Type"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:361
+msgid "Retrieve all posts of specific post type"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:364
+msgid "Get Posts by Metadata"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:365
+msgid "Retrieve all posts of specific post type by metadata or custom fields"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:368
+msgid "Get Post Taxonomies"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:369
+msgid "Retrieve all taxonomies of a post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:372
+msgid "Get Post Taxonomy Terms"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:373
+msgid "Retrieves the terms of the taxonomy that are attached to the post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:376
+msgid "Get Post by ID"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:377
+msgid "Retrieve the post details by ID"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:380
+msgid "Get Taxonomy by Name"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:381
+msgid "Retrieve the taxonomy details by name"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:384
+msgid "Get All Users by Role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:385
+msgid "Retrieve all users by user role"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:388
+msgid "Add Tag to Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:389
+msgid "Add a tag to post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:392
+msgid "Remove Tag from Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:393
+msgid "Remove a tag from post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:396
+msgid "Add Category to Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:397
+msgid "Add a category to post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:400
+msgid "Remove Category from Post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:401
+msgid "Remove a category from post"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:404
+msgid "Check Plugin Active"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:405
+msgid "Check if a plugin is active"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:408
+msgid "Activate Plugin"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:409
+msgid "Activate a plugin if it's not already active"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:412
+msgid "Update Category"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:413
+msgid "Update an existing category details"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:416
+msgid "Update Tag"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:417
+msgid "Update an existing tag details"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:420
+msgid "Update Term"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:421
+msgid "Update an existing term details"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:424
+msgid "Search Media by Title"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:425
+msgid "Search media by title in media library"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2202
+msgid "No values updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2229
+msgid "User not found for the given ID"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2256
+msgid "User not found for the given email"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2352
+msgid "Looks like user role already exists"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2376
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2430
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2484
+msgid "User role is not provided"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2385
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2439
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2493
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2540
+msgid "User ID is not provided"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2410
+msgid "User role is successfully added to the user"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2464
+msgid "User role is successfully changed"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2518
+msgid "User role is successfully removed"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2557
+msgid "User account successfully deleted"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2613
+msgid "Post ID required. Check incoming data or dynamic tag values."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2814
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2858
+msgid "Media ID is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2827
+msgid "Media is not deleted."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2835
+msgid "Media is successfully deleted."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2868
+msgid "new_title is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2881
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3830
+msgid "Media is not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2898
+msgid "Media is not renamed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:2906
+msgid "Media is successfully renamed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3013
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3064
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3156
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3304
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3357
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3410
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3466
+msgid "Post ID is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3024
+msgid "Post taxonomy is successfully retrieved."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3039
+msgid "Post taxonomy is not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3074
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3750
+msgid "Taxonomy is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3085
+msgid "Post terms is successfully retrieved."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3132
+msgid "Post terms is not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3169
+msgid "Post is not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3202
+msgid "Taxonomy not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3236
+msgid "User role is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3254
+msgid "Users are not found."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3314
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3367
+msgid "Tag name is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3327
+msgid "Tag is not added."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3335
+msgid "Tag is successfully added."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3380
+msgid "Tag is not removed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3388
+msgid "Tag is successfully removed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3420
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3476
+msgid "Category name is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3436
+msgid "Category is not added."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3444
+msgid "Category is successfully added."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3489
+msgid "Category is not removed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3497
+msgid "Category is successfully removed."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3518
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3557
+msgid "Plugin is required"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3528
+msgid "Plugin is active"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3536
+msgid "Plugin is not active"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3567
+msgid "Plugin is already activated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3580
+msgid "Plugin is not activated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3589
+msgid "Plugin is successfully activated"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3613
+msgid "Category ID is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3643
+msgid "Category is not updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3652
+msgid "Category is successfully updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3676
+msgid "Tag ID is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3706
+msgid "Tag is not updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3715
+msgid "Tag is successfully updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3740
+msgid "Term ID is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3780
+msgid "Term is not updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3789
+msgid "Term is successfully updated."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3810
+msgid "Title is required."
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:3990
+msgid "No records found, please try capturing live data"
+msgstr ""
+
+#: inc/apps/wordpress/class-flowmattic-wordpress.php:4369
+msgid "Invalid action event."
+msgstr ""
+
+#: inc/apps/xml-parser/class-flowmattic-xml-parser.php:45
+msgid "XML Parser by FlowMattic"
+msgstr ""
+
+#: inc/apps/xml-parser/class-flowmattic-xml-parser.php:47
+msgid "Parse XML file in your workflow."
+msgstr ""
+
+#: inc/apps/xml-parser/class-flowmattic-xml-parser.php:76
+msgid "Parse XML File"
+msgstr ""
+
+#: inc/apps/xml-parser/class-flowmattic-xml-parser.php:77
+msgid "Parse any XML file URL into JSON data."
+msgstr ""
+
+#: inc/async/class-flowmattic-background-process.php:624
+msgid "Every Minute"
+msgstr ""
+
+#: inc/async/class-flowmattic-background-process.php:626
+msgid "Every %d Minutes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "FlowMattic"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:717 inc/class-flowmattic-admin.php:1338
+msgid "Connects"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:722 inc/class-flowmattic-admin.php:1343
+msgid "AI Chatbot"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:725 inc/class-flowmattic-admin.php:1346
+msgid "Variables"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:727 inc/class-flowmattic-admin.php:1349
+msgid "History"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:733
+msgid "Status Page"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:736
+msgid "License Page"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:736 inc/class-flowmattic-admin.php:1354
+msgid "License"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:742 inc/class-flowmattic-admin.php:1329
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:768
+msgid ""
+"You have <strong>%1$d</strong> integration updates available. <a "
+"href=\"%2$s\">Click here</a> to update now!"
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:1122
+msgid "Link you accessed is expired or not valid."
+msgstr ""
+
+#: inc/class-flowmattic-admin.php:1298
+msgid ""
+"Thank you for choosing FlowMattic. We are honored and are fully dedicated "
+"to making your experience perfect."
+msgstr ""
+
+#: inc/class-flowmattic-applications.php:215
+#: inc/class-flowmattic-applications.php:221
+msgid ""
+"License not activated. Please activate your license in order to install the "
+"app integration."
+msgstr ""
+
+#: inc/class-flowmattic-applications.php:237
+msgid "License not valid. Please make sure your license is activated and is valid."
+msgstr ""
+
+#: inc/class-flowmattic-applications.php:256
+msgid "Something went wrong. Please contact support."
+msgstr ""
+
+#: inc/class-flowmattic-applications.php:323
+msgid "Remote server returned %1$d %2$s"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:143 inc/helpers.php:2067
+msgid "Authentication failed!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:159
+msgid "Invalid action."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:224
+msgid "Invalid chatbot ID."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:352 inc/class-flowmattic-chatbots.php:478
+#: inc/class-flowmattic-chatbots.php:583 inc/class-flowmattic-chatbots.php:754
+#: inc/class-flowmattic-chatbots.php:1160
+#: inc/class-flowmattic-chatbots.php:1285
+#: inc/class-flowmattic-chatbots.php:1552
+msgid "Chatbot authentication error. Please check chatbot settings."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:424
+msgid "Error uploading content source!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:534
+msgid "Content source added successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:539
+msgid "Unknown error occured while adding content source!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:642
+msgid "Content source deleted successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:647
+msgid "Unknown error occured while deleting content source!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:705
+msgid "Threads fetched successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:711
+msgid "No threads found!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:789
+msgid "Messages fetched successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:797
+msgid "Error fetching messages!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:905
+msgid "Assistant created successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:915
+msgid "Error creating assistant. Please try again."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:925 inc/class-flowmattic-chatbots.php:998
+#: inc/class-flowmattic-chatbots.php:1070
+#: inc/class-flowmattic-chatbots.php:1221
+#: inc/class-flowmattic-chatbots.php:1491
+#: inc/class-flowmattic-chatbots.php:1654 inc/class-flowmattic-connects.php:311
+#: inc/class-flowmattic-custom-apps.php:114
+#: inc/class-flowmattic-custom-apps.php:156
+#: inc/class-flowmattic-custom-apps.php:233
+#: inc/class-flowmattic-custom-apps.php:297
+#: inc/class-flowmattic-custom-apps.php:360
+#: inc/class-flowmattic-custom-apps.php:413
+#: inc/class-flowmattic-custom-apps.php:495
+#: inc/class-flowmattic-custom-apps.php:553
+#: inc/class-flowmattic-custom-apps.php:616
+msgid "No data received."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:979
+msgid "Assistants fetched successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:988
+msgid "Error fetching assistants. Please try again."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1061
+msgid "Saved successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1102
+msgid "Invalid chatbot ID. Please try refreshing the page, or contact support"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1205
+msgid "Thread created successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1213
+msgid "Error creating thread. Please try again."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1416
+msgid "Chatbot response received"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1464
+#: inc/class-flowmattic-chatbots.php:1636
+msgid "Message created successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1475
+#: inc/class-flowmattic-chatbots.php:1646
+msgid "Error creating run. Please try again."
+msgstr ""
+
+#: inc/class-flowmattic-chatbots.php:1483
+msgid "Error creating message. Please try again."
+msgstr ""
+
+#: inc/class-flowmattic-connects.php:303
+msgid "Connect added successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-connects.php:393
+msgid "Invalid connect ID. Please try refreshing the page, or contact support"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:107
+msgid "App saved successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:149
+msgid "App deleted successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:225
+msgid "Trigger saved successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:282
+msgid "Trigger renamed successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:289
+#: inc/class-flowmattic-custom-apps.php:352
+#: inc/class-flowmattic-custom-apps.php:405
+#: inc/class-flowmattic-custom-apps.php:545
+#: inc/class-flowmattic-custom-apps.php:608
+msgid "Invalid APP ID."
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:345
+msgid "Trigger deleted successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:487
+msgid "Action saved successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:601
+msgid "Action deleted successfully!"
+msgstr ""
+
+#: inc/class-flowmattic-custom-apps.php:682
+msgid "App imported."
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:182
+#: inc/class-flowmattic-workflow.php:1045
+msgid "Hello,"
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:185
+msgid "Connect Page Link"
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:186
+msgid ""
+"Please check and re-authenticate the connect to avoid failures in the "
+"workflows it is used in."
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:187
+msgid ""
+"To avoid this issue in the future, make sure the crons are running properly "
+"on your site."
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:188
+#: inc/class-flowmattic-workflow.php:1050
+msgid "This is an automated email, please do not reply to this email."
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:189
+#: inc/class-flowmattic-workflow.php:1051
+msgid "Regards,"
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:190
+#: inc/class-flowmattic-workflow.php:1052
+msgid "FlowMattic Team"
+msgstr ""
+
+#: inc/class-flowmattic-database-connects.php:197
+#. Translators: %s: Connect name.
+msgid "FlowMattic: Authentication for %s seems expired on site - "
+msgstr ""
+
+#: inc/class-flowmattic-database-custom-apps.php:67
+#: inc/class-flowmattic-database-custom-apps.php:165
+msgid "Invalid App ID"
+msgstr ""
+
+#: inc/class-flowmattic-polling.php:80 inc/class-flowmattic-polling.php:167
+msgid "Polling successful"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:59
+msgid "The current date and time in ISO 8601 format in UTC timezone."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:63
+msgid "The current date and time in ISO 8601 format in local timezone."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:67
+msgid "The current date and time in UTC 24-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:71
+msgid "The current date and time in UTC 12-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:75
+msgid "The current date in UTC."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:79
+msgid "The current time in UTC 24-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:83
+msgid "The current time in UTC 12-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:87
+msgid "The current timestamp in UTC."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:91
+msgid "The current date and time in local time 24-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:95
+msgid "The current date and time in local time 12-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:99
+msgid "The current date in local time."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:103
+msgid "The current time in local time 24-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:107
+msgid "The current time in local time 12-hour format."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:111
+msgid "The current timestamp in local time."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:115
+msgid "The current year in local time."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:119
+msgid "The current month in local time."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:123
+msgid "The current day in local time."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:127
+msgid "Prints blank value"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:131
+msgid "Inserts single space"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:135
+msgid "Inserts line break"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:139
+msgid "Inserts boolean true value. Accepted values after colon - true, yes, 1"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:143
+msgid "Inserts boolean false value. Accepted values after colon - false, no, 0"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:147
+msgid "Inserts random number between 1 and 100. Accept any number in place of 100"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:151
+msgid "Inserts random string of 10 characters. Accept any number between 2 and 100."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:319
+msgid "Variable value is required."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:324
+msgid "Variable description is required."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:351
+msgid "Updated"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:363
+msgid "Created"
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:372
+msgid "Variable not created."
+msgstr ""
+
+#: inc/class-flowmattic-variables.php:409
+msgid "Variable not deleted."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:325
+msgid "Delay step is the last step in the workflow. Aborting the delay."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:461
+#. Translators: %s: Delay time.
+msgid ""
+"Delay execution time already passed on %s. Executing the next step in a few "
+"moments."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:768
+msgid "Conditions meet."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:774
+msgid "Conditions does not meet."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:826
+msgid "Redirecting to the URL"
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:942
+msgid "No response received"
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1049
+msgid "Please check the task history for more details."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1057
+msgid "FlowMattic: Workflow failed notification for site - "
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1330
+#: inc/class-flowmattic-workflow.php:1366
+msgid "Workflow ID missing"
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1388
+msgid "Something went wrong!"
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1398
+msgid "Application is missing in the request."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1576
+#. translators: Application name.
+msgid "Application %s is not active or installed."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1725
+msgid "Task ID is missing."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1752
+msgid "Error cancelling the delay."
+msgstr ""
+
+#: inc/class-flowmattic-workflow.php:1795
+msgid "Workflow ID is missing."
+msgstr ""
+
+#: inc/embed/chatbot.php:66
+msgid "Chatbot not found."
+msgstr ""
+
+#: inc/helpers.php:128 inc/helpers.php:156
+msgid "Any Form"
+msgstr ""
+
+#: inc/helpers.php:363
+msgid "License Info"
+msgstr ""
+
+#: inc/helpers.php:369
+msgid "Valid"
+msgstr ""
+
+#: inc/helpers.php:377
+msgid "License Type"
+msgstr ""
+
+#: inc/helpers.php:383
+msgid "License Valid Till"
+msgstr ""
+
+#: inc/helpers.php:401
+msgid "Support Valid Till"
+msgstr ""
+
+#: inc/helpers.php:423
+msgid "Your License Key"
+msgstr ""
+
+#: inc/helpers.php:438
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/helpers.php:461 inc/helpers.php:500
+msgid "Activate License"
+msgstr ""
+
+#: inc/helpers.php:480
+msgid "License code"
+msgstr ""
+
+#: inc/helpers.php:484
+msgid "Email Address"
+msgstr ""
+
+#: inc/helpers.php:489
+msgid "Email used to purchase the plugin"
+msgstr ""
+
+#: inc/helpers.php:504
+msgid ""
+"Enter your license key here, to activate the product, and get full feature "
+"updates and premium support."
+msgstr ""
+
+#: inc/helpers.php:509
+msgid ""
+"You will find your license key at the license tab in <a href=\"%s\" "
+"target=\"_blank\">account page</a> on our website."
+msgstr ""
+
+#: inc/helpers.php:513
+msgid "Enter your license key and the email used to purchase the plugin."
+msgstr ""
+
+#: inc/helpers.php:517
+msgid ""
+"Once the license is activated, you'll be able to receive automatic updates "
+"and unlock premium features."
+msgstr ""
+
+#: inc/helpers.php:653
+msgid "Once every hour"
+msgstr ""
+
+#: inc/helpers.php:693
+msgid "FlowMattic - Workflow Manager"
+msgstr ""
+
+#: inc/helpers.php:1407
+msgid "Download failed."
+msgstr ""
+
+#: inc/helpers.php:2099
+msgid "Failed to generate workflow suggestion!"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://flowmattic.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Workflow automation plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "InfiWebs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.infiwebs.com"
+msgstr ""
